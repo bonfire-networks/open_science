@@ -1,4 +1,4 @@
-defmodule Ember.ChannelCase do
+defmodule OpenScience.ChannelCase do
   @moduledoc """
   This module defines the test case to be used by
   channel tests.
@@ -17,13 +17,13 @@ defmodule Ember.ChannelCase do
 
   use ExUnit.CaseTemplate
 
-  import Ember
+  import OpenScience
 
   using do
     quote do
       # Import conveniences for testing with channels
       import Phoenix.ChannelTest
-      import Ember.ChannelCase
+      import OpenScience.ChannelCase
 
       # The default endpoint for testing
       @endpoint Application.compile_env!(:bonfire, :endpoint_module)

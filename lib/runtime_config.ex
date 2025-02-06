@@ -1,4 +1,4 @@
-defmodule Ember.RuntimeConfig do
+defmodule OpenScience.RuntimeConfig do
   # use Bonfire.Common.Localise
 
   @behaviour Bonfire.Common.ConfigModule
@@ -10,7 +10,7 @@ defmodule Ember.RuntimeConfig do
   def config do
     import Config
 
-    # config :ember,
-    #   modularity: System.get_env("ENABLE_ember") || :disabled
+    # config :open_science,
+    #   modularity: System.get_env("ENABLE_open_science") || :disabled
   end
 end
