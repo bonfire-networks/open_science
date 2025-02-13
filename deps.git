@@ -1,2 +1,3 @@
-# bonfire_common = "https://github.com/bonfire-networks/bonfire_common"
-# bonfire_ui_common = "https://github.com/bonfire-networks/bonfire_ui_common"
+social = "https://github.com/bonfire-networks/social"
+
+bonfire_open_science = "https://github.com/bonfire-networks/bonfire_open_science"
