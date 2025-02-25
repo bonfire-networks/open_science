@@ -1,4 +1,4 @@
-Code.eval_file("mess.exs", (if File.exists?("../../lib/mix/mess.exs"), do: "../../lib/mix/"))
+Code.eval_file("mess.exs", if(File.exists?("../../lib/mix/mess.exs"), do: "../../lib/mix/"))
 
 defmodule OpenScience.MixProject do
   use Mix.Project
@@ -13,17 +13,16 @@ defmodule OpenScience.MixProject do
       ]
     else
       []
-    end
-    ++
-    [
-      app: :open_science,
-      version: "0.0.1",
-      elixir: "~> 1.10",
-      elixirc_paths: elixirc_paths(Mix.env()),
-      compilers: Mix.compilers(),
-      start_permanent: Mix.env() == :prod,
-      aliases: aliases(),
-      description: "A flavour of Bonfire",
+    end ++
+      [
+        app: :open_science,
+        version: "0.0.1",
+        elixir: "~> 1.10",
+        elixirc_paths: elixirc_paths(Mix.env()),
+        compilers: Mix.compilers(),
+        start_permanent: Mix.env() == :prod,
+        aliases: aliases(),
+        description: "A flavour of Bonfire",
         homepage_url: "https://bonfirenetworks.org/",
         source_url: "https://github.com/bonfire-networks/open_science",
         package: [
@@ -39,15 +38,15 @@ defmodule OpenScience.MixProject do
           # extra pages to include
           extras: ["README.md"]
         ],
-      deps:
-        Mess.deps([
-          {:phoenix_live_reload, "~> 1.2", only: :dev},
+        deps:
+          Mess.deps([
+            {:phoenix_live_reload, "~> 1.2", only: :dev},
 
-          {:floki, ">= 0.0.0", only: [:dev, :test]},
+            # {:floki, ">= 0.0.0", only: [:dev, :test]},
 
-          {:ex_doc, ">= 0.0.0", only: :dev, runtime: false}
-        ])
-    ]
+            {:ex_doc, ">= 0.0.0", only: :dev, runtime: false}
+          ])
+      ]
   end
 
   def application, do: [extra_applications: [:logger, :runtime_tools]]
