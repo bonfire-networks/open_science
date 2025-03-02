@@ -30,7 +30,7 @@ if [ "$AUTO_YES" = true ]; then
 fi
 
 echo -e "\nInstalling flavour(s) this one depends on first..."
-run_installers social || exit 1
+run_installers social || exit 1 
 
 echo -e "\nCreating directories..."
 create_dirs "lib/" "config/current_flavour/"
