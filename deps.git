@@ -1,8 +1,5 @@
 # bonfire = "https://github.com/bonfire-networks/bonfire"
 ember = "https://github.com/bonfire-networks/ember"
-community = "https://github.com/bonfire-networks/community"
-
-bonfire_open_science = "https://github.com/bonfire-networks/bonfire_open_science"
 
 bonfire_messages = "https://github.com/bonfire-networks/bonfire_messages"
 bonfire_ui_messages = "https://github.com/bonfire-networks/bonfire_ui_messages"
@@ -27,15 +24,13 @@ bonfire_poll = "https://github.com/bonfire-networks/bonfire_poll"
 
 # bonfire_label = "https://github.com/bonfire-networks/bonfire_label"
 
-bonfire_ui_groups = "https://github.com/bonfire-networks/bonfire_ui_groups"
-bonfire_ui_topics = "https://github.com/bonfire-networks/bonfire_ui_topics"
-
 bonfire_geolocate = "https://github.com/bonfire-networks/bonfire_geolocate"
 # bonfire_gatherings = "https://github.com/bonfire-networks/bonfire_gatherings"
 
 bonfire_translation = "https://github.com/bonfire-networks/bonfire_translation"
 
 # bonfire_pages = "https://github.com/bonfire-networks/bonfire_pages"
+# bonfire_ui_groups = "https://github.com/bonfire-networks/bonfire_ui_groups"
 # bonfire_pages_beacon = "https://github.com/bonfire-networks/bonfire_pages_beacon"
 # beacon = "https://github.com/bonfire-networks/beacon#bonfire"
 # beacon = "https://github.com/beaconCMS/beacon"
